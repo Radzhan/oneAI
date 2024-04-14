@@ -1,0 +1,24 @@
+.card {
+  background: transparent
+    linear-gradient(140deg, #fff7fc66 0%, #ffffff66 0%, #ffffff00 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: inset 3px 3px 6px #eee5e9;
+  border-radius: 30px;
+  opacity: 1;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  padding: 14px 13px 19px 13px;
+  .name {
+    text-align: left;
+    font: normal normal 900 35px/43px "black";
+    letter-spacing: 0px;
+    color: #fceff9;
+    opacity: 1;
+  }
+  .card-image {
+    width: 281px;
+    height: 281px;
+    border-radius: 30px;
+    vertical-align: top;
+  }
+}
