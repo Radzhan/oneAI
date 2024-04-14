@@ -6,6 +6,8 @@ import { ThemeProvider } from "@mui/material";
 import theme from "./theme";
 import { store } from "./app/GlobalStore/store";
 
+import './app/styles/index.scss'
+
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
