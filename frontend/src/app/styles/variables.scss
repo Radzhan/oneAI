@@ -1,7 +1,23 @@
 @font-face {
-    font-family: "black";
-    font-style: normal;
-    font-weight: 400;
-    src: local("Montserrat-Black"),
+  font-family: "black";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Montserrat-Black"),
     url("../fonts/Montserrat-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "thin";
+  font-style: normal;
+  font-weight: 100;
+  src: local("SF-Pro-Display-Thin"),
+    url("../fonts/SF-Pro-Display-Thin.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local("SF-Pro-Display-Regular"),
+    url("../fonts/SF-Pro-Display-Regular.otf") format("opentype");
 }
