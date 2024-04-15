@@ -1,7 +1,6 @@
 import { GrClose } from "react-icons/gr";
 import "./Registr.scss";
 import { useAppDispatch } from "../../app/GlobalStore/hooks";
-import { Navigate, useNavigate } from "react-router-dom";
 import { setUser } from "../../store/OpenAISlice";
 import React, { FormEvent } from "react";
 
@@ -16,7 +15,7 @@ const Registr: React.FC<Props> = ({ isOpen, onClose }) => {
   const submitForm = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     dispatch(setUser());
-    onClose()
+    onClose();
   };
 
   return (

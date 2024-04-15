@@ -8,7 +8,7 @@ import { getUser } from "../../store/OpenAISlice";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const isUser = useAppSelector(getUser);
-  
+
   return (
     <div className="navbar">
       <div className="logo container">

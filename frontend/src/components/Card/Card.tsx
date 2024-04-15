@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
 import "./Card.scss";
-
 interface Props {
   src: string;
   name: string;
