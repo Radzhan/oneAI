@@ -7,11 +7,11 @@ interface Props {
 }
 
 const Card: React.FC<Props> = ({ src, name }) => {
-    const navigate = useNavigate()
+  const navigate = useNavigate();
 
   return (
-    <div className="card" onClick={() => navigate('/result')}>
-        <img className="card-image" src={src} alt="img" />
+    <div className="card" onClick={() => navigate("/result")}>
+      <img className="card-image" src={src} alt="img" />
       <h3 className="name">{name}</h3>
     </div>
   );

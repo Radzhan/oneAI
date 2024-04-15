@@ -1,0 +1,51 @@
+.registr {
+  backdrop-filter: blur(50px);
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      input {
+        background: #fceff9 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 20px #08070880;
+        border: 2px solid #080708;
+        border-radius: 30px;
+        padding: 11px 20px;
+      }
+    }
+  }
+  .btn-close {
+    display: block;
+    margin-left: auto;
+    margin-bottom: 110%;
+    background: transparent;
+    svg {
+      width: 36px;
+      height: 36px;
+    }
+  }
+  .btn-submit {
+    background: #00cc99 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #08070880;
+    border-radius: 30px;
+    text-align: center;
+    font: normal normal normal 25px/33px "bold";
+    letter-spacing: 0px;
+    color: #fff7fc;
+    padding: 11px 45px;
+  }
+  .mini-container {
+    max-width: 250px;
+    margin: 22px auto;
+  }
+}
+

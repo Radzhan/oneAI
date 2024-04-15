@@ -11,6 +11,14 @@ body {
   margin: 0;
 }
 
+button:active {
+  box-shadow: 0 2px 17px rgba(0, 0, 0, 1) !important; 
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 .container {
   max-width: 310px;
   margin: 0 auto;

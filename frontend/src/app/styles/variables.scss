@@ -23,10 +23,25 @@
 }
 
 @font-face {
-    font-family: "bold";
-    font-style: normal;
-    font-weight: 700;
-    src: local("TestSöhne-Dreiviertelfett"),
-      url("../fonts/TestSöhne-Dreiviertelfett.otf") format("opentype");
-  }
-  
+  font-family: "bold";
+  font-style: normal;
+  font-weight: 700;
+  src: local("TestSöhne-Dreiviertelfett"),
+    url("../fonts/TestSöhne-Dreiviertelfett.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "buch";
+  font-style: normal;
+  font-weight: 500;
+  src: local("TestSöhne-Buch"),
+    url("../fonts/TestSöhne-Buch.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "kraftig";
+  font-style: normal;
+  font-weight: 500;
+  src: local("TestSöhne-Kräftig"),
+    url("../fonts/TestSöhne-Kräftig.otf") format("opentype");
+}

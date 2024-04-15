@@ -26,7 +26,11 @@ const Main = () => {
   return (
     <>
       <Navbar />
-      <div className="card-group container">{createCard.length === 0 ? 'нет карточек' : createCard}</div>
+      <div className="container">
+        <div className="card-group">
+          {createCard.length === 0 ? "нет карточек" : createCard}
+        </div>
+      </div>
       <Footer />
     </>
   );

@@ -23,7 +23,7 @@ const Result = () => {
             alt="gif"
           />
           <div className="result-btn-group">
-            <button className="gallery-btn">
+            <button className="gallery-btn" onClick={() => navigate('/upload')}>
               <GrGallery
                 style={{
                   color: "#ffffff",
@@ -31,7 +31,7 @@ const Result = () => {
               />
               Choose photo from gallery
             </button>
-            <button className="camera-btn">
+            <button className="camera-btn" onClick={() => navigate('/upload')}>
               <HiOutlineCamera
                 style={{
                   color: "#ffffff",
