@@ -1,15 +1,26 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { CardsI } from "../types";
+import { getCards } from "./OpenAIThunks";
+import { RootState } from "../app/GlobalStore/store";
 
-interface openAIState {
+interface oneAIState {
+	cards: CardsI[]
 }
 
-const initialState: openAIState = {};
+const initialState: oneAIState = {
+	cards: [],
+};
 
-export const openAISlice = createSlice({
-  name: "opneAI",
+export const oneAISlice = createSlice({
+  name: "oneAI",
   initialState,
   reducers: {},
-  extraReducers: (builder) => {},
+  extraReducers: (builder) => {
+	builder.addCase(getCards.fulfilled, (state, action) => {
+		state.cards = action.payload;
+	});
+  },
 });
 
-export const openAIReducer = openAISlice.reducer;
+export const oneAIReducer = oneAISlice.reducer;
+export const Cards = (state: RootState) => state.oneAI.cards;

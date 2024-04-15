@@ -3,6 +3,12 @@
   border-radius: 0px 0px 50px 50px;
   opacity: 1;
   padding: 18px 34px;
+  position:sticky;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 375px;
 }
 
 .logo a {

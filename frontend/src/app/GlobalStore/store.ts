@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { openAIReducer } from "../../store/OpenAISlice";
+import { oneAIReducer } from "../../store/OpenAISlice";
 
 export const store = configureStore({
   reducer: {
-    openAI: openAIReducer,
+    oneAI: oneAIReducer,
   },
 });
 
